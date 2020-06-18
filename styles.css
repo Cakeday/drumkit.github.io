@@ -1,0 +1,24 @@
+html {
+    background: url('./ilya-mirnyy-jNKjqQQB5Gw-unsplash.jpg') top center;
+    background-size: cover;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.keys {
+    background-color: red;
+    width: 75vw;
+    height: 75vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
